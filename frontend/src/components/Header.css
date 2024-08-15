@@ -1,0 +1,23 @@
+/* src/Header.css */
+
+.header {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distributes items evenly */
+  }
+  
+  .header-content > * {
+    margin-right: 0;
+  }
+  
+  .header-content > *:last-child {
+    margin-right: 0; 
+  }
+
+  
